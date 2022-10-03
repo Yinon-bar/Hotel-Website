@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="utilities.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d35887ce90.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <a href="index.html">
+            <img id="logo" src="SVG/לוגו לאתר.svg" alt=""
+          /></a>
+          <ul>
+            <li><a href="index.html">בית</a></li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="contact.html">צור קשר</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form">
+      <div class="container">
+        <h1>
+          <span class="primary">צרו קשר</span> עוד היום לקבלת הצעת מחיר מותאמת
+          אישית
+        </h1>
+        <p>אנא מלאו את הטופס למטה ונציג שלנו יחזור אליכם בהקדם</p>
+        <form action="proces.php" class="form">
+          <div class="form-group">
+            <label for="f-name">שם</label>
+            <input type="text" name="f-name" id="f-name" required />
+          </div>
+          <div class="form-group">
+            <label for="l-name">שם משפחה</label>
+            <input type="text" name="l-name" id="l-name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">אימייל</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">טלפון</label>
+            <input type="tel" name="tel" id="tel" required />
+          </div>
+          <div class="form-group">
+            <input type="submit" name="sub" id="sub" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer id="main-footer" class="box-dark">
+      <p>&copy; כל הזכויות שמורות לרשת מלונות 2022 BT</p>
+      <p>ינון בר | בניית ועיצוב אתרים</p>
+      <div class="social-net">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

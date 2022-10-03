@@ -1,0 +1,6 @@
+/* primary color */
+html {
+  --main-color: #100f21;
+  --special-color: #d19157;
+  --comp-color: rgb(236, 227, 213);
+}

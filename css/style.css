@@ -1,0 +1,150 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom:1rem;
+}
+
+p{
+    margin: 2rem 0;
+}
+/* utility */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+.btn-light{
+    background-color: #fff;
+    color: #333;
+}
+
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary{
+    background-color: #333;
+    color: #f7c08a;
+}
+
+/* nav bar */
+#navbar{
+    background-color:#333 ;
+    color: white;
+    overflow: auto;
+}
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 1rem;
+}
+#navbar ul{
+    list-style-type: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 1.2rem;
+    text-align: center;
+}
+#navbar ul li a:hover , .current{
+    background-color: #444;
+    color: #f7c0aa;
+}
+
+/* Show case */
+#showcase{
+    background-image: url(/image_resources/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top:170px ;
+}
+
+#showcase .showcase-content h1{
+    font-size: 4rem;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+}
+
+/* Home info */
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(/image_resources/photo-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    font-size: 1.3rem;
+}
+
+#home-info .info-content a{
+    margin-top: 2rem;
+}
